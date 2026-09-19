@@ -184,7 +184,7 @@ concurrency safety:
 }
 
 For more information about suites and how to declare and customize them, see
-<doc:OrganizingTests>.
+<doc:organizing-test-functions-with-suite-types>.
 
 ### Convert setup and teardown functions
 
@@ -304,7 +304,7 @@ As with XCTest, the testing library allows test functions to be marked `async`,
   [`MainActor.run(resultType:body:)`](https://developer.apple.com/documentation/swift/mainactor/run(resulttype:body:)).
 
 For more information about test functions and how to declare and customize them,
-see <doc:DefiningTests>.
+see <doc:defining-test-functions>.
 
 ### Check for expected values and outcomes
 
@@ -912,7 +912,7 @@ suite serially:
   }
 }
 
-For more information, see <doc:Parallelization>.
+For more information, see <doc:running-tests-serially-or-in-parallel>.
 
 ### Attach values
 
@@ -976,7 +976,7 @@ equivalent interface in Swift Testing. -->
 
 ## See Also
 
-- <doc:DefiningTests>
-- <doc:OrganizingTests>
-- <doc:Expectations>
+- <doc:defining-test-functions>
+- <doc:organizing-test-functions-with-suite-types>
+- <doc:expectations-and-confirmations>
 - <doc:known-issues>

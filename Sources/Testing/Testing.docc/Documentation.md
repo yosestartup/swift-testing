@@ -46,16 +46,16 @@ their problems.
 
 ### Essentials
 
-- <doc:DefiningTests>
-- <doc:OrganizingTests>
-- <doc:MigratingFromXCTest>
+- <doc:defining-test-functions>
+- <doc:organizing-test-functions-with-suite-types>
+- <doc:migrating-a-test-from-xctest>
 - ``Test(_:_:)``
 - ``Test``
 - ``Suite(_:_:)``
 
 ### Test parameterization
 
-- <doc:ParameterizedTesting>
+- <doc:implementing-parameterized-tests>
 - ``Test(_:_:arguments:)-8kn7a``
 - ``Test(_:_:arguments:_:)``
 - ``Test(_:_:arguments:)-3rzok``
@@ -65,19 +65,19 @@ their problems.
 
 ### Behavior validation
 
-- <doc:Expectations>
+- <doc:expectations-and-confirmations>
 - <doc:known-issues>
 
 ### Test customization
 
-- <doc:Traits>
+- <doc:traits>
 
 ### Value description and reflection
 
-- <doc:describing-values>
+- <doc:describing-and-reflecting-values>
 - ``CustomTestReflectable``
 - ``CustomTestStringConvertible``
 
 ### Data collection
 
-- <doc:Attachments>
+- <doc:attachments>

@@ -23,7 +23,7 @@ a test _case_.
 
 By default, the test cases of a test function run in parallel with each
 other. For more information about test parallelization, see
-<doc:Parallelization>.
+<doc:running-tests-serially-or-in-parallel>.
 
 ### Parameterize over an array of values
 

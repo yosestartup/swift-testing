@@ -77,7 +77,7 @@ public typealias __TraitArray<T> = [any Trait]
 ///
 /// ## See Also
 ///
-/// - <doc:OrganizingTests>
+/// - <doc:organizing-test-functions-with-suite-types>
 @attached(peer)
 @_documentation(visibility: private)
 public macro Suite(
@@ -104,7 +104,7 @@ public macro Suite(
 ///
 /// ## See Also
 ///
-/// - <doc:OrganizingTests>
+/// - <doc:organizing-test-functions-with-suite-types>
 @attached(peer) public macro Suite(
   _ displayName: _const String? = nil,
   _ traits: any SuiteTrait...
@@ -151,7 +151,7 @@ public macro Test(
 ///
 /// ## See Also
 ///
-/// - <doc:DefiningTests>
+/// - <doc:defining-test-functions>
 @attached(peer) public macro Test(
   _ displayName: _const String? = nil,
   _ traits: any TestTrait...
@@ -247,7 +247,7 @@ public macro Test<C>(
 ///
 /// ## See Also
 ///
-/// - <doc:DefiningTests>
+/// - <doc:defining-test-functions>
 @attached(peer) public macro Test<C>(
   _ displayName: _const String? = nil,
   _ traits: any TestTrait...,
@@ -303,7 +303,7 @@ extension Test {
 ///
 /// ## See Also
 ///
-/// - <doc:DefiningTests>
+/// - <doc:defining-test-functions>
 @attached(peer)
 @_documentation(visibility: private)
 public macro Test<C1, C2>(
@@ -334,7 +334,7 @@ public macro Test<C1, C2>(
 ///
 /// ## See Also
 ///
-/// - <doc:DefiningTests>
+/// - <doc:defining-test-functions>
 @attached(peer) public macro Test<C1, C2>(
   _ displayName: _const String? = nil,
   _ traits: any TestTrait...,
@@ -363,7 +363,7 @@ public macro Test<C1, C2>(
 ///
 /// ## See Also
 ///
-/// - <doc:DefiningTests>
+/// - <doc:defining-test-functions>
 @attached(peer)
 @_documentation(visibility: private)
 public macro Test<C1, C2>(
@@ -394,7 +394,7 @@ public macro Test<C1, C2>(
 ///
 /// ## See Also
 ///
-/// - <doc:DefiningTests>
+/// - <doc:defining-test-functions>
 @attached(peer) public macro Test<C1, C2>(
   _ displayName: _const String? = nil,
   _ traits: any TestTrait...,

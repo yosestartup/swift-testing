@@ -13,7 +13,7 @@ extension Tag {
   ///
   /// ## See Also
   ///
-  /// - <doc:AddingTags>
+  /// - <doc:adding-tags-to-tests>
   @_spi(Experimental) @_spi(ForToolsIntegrationOnly)
   @available(*, deprecated, renamed: "Color")
   public typealias Color = Testing.Color
