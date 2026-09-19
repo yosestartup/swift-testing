@@ -10,6 +10,10 @@ See https://swift.org/LICENSE.txt for license information
 See https://swift.org/CONTRIBUTORS.txt for Swift project authors
 -->
 
+@Metadata {
+  @Redirected(from: "/documentation/testing/parallelization")
+}
+
 Control whether tests run serially or in parallel.
 
 ## Overview

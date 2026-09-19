@@ -10,6 +10,10 @@ See https://swift.org/LICENSE.txt for license information
 See https://swift.org/CONTRIBUTORS.txt for Swift project authors
 -->
 
+@Metadata {
+  @Redirected(from: "/documentation/testing/bugidentifiers")
+}
+
 Examine how the testing library interprets bug identifiers provided by developers.
 
 ## Overview
